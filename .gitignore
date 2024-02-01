@@ -1,0 +1,15 @@
+__pycache__/
+
+.vscode/
+.idea/
+
+# Exclude all saved frames, cubes, and analysis
+frames/*
+scans/*
+data/*
+img/*
+
+# Ignore generated examples, but keep the sourse 
+# spectrogram in git
+examples/*
+!examples/fluorescence_spectrogram.nc
