@@ -167,7 +167,6 @@ def _set_camera_feature(self, name, val):
     """
  if name in self._camera:
         camera_was_acquiring = self._camera.recording  # Check if the camera is currently recording
-
         try:
             # Try to set the value even if live feed is running.
             setattr(self._camera, name, val)
